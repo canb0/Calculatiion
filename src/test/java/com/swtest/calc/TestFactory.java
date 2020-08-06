@@ -21,7 +21,7 @@ public class TestFactory {
 
 	@DataProvider
 	public static Object[][] totalGoal() {
-		return new Object[][] { { "2-1", 1 }, { "2-2", 4 }, { "1-1", 2 },
+		return new Object[][] { { "2-1", 3 }, { "2-2", 4 }, { "1-1", 2 },
 				{ "5-8", 13 }, { "1-0", 1 }, { "0-0", 0 }, { "", -1 } };
 	}
 
